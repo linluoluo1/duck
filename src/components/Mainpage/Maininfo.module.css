@@ -1,0 +1,42 @@
+@media screen and (max-width: 600px) {
+    .img-wrapper img {
+        width:70vw;
+        height: auto;
+    }
+}
+
+
+*{
+    font-family: 'Playfair Display', serif;
+  }
+body {
+background-image: url(../img/Fresh\ Turboscent.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+margin: 0;
+padding: 0;
+}
+
+.headerWrapper {
+
+    width: 296px;
+    height: 100px;
+    margin: auto;
+    background-color: #80b7b3;        
+   }
+.headerH1 {
+  font-size: 50px;
+  line-height: 42px;
+  color: #fff;
+  padding-top:20px;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+   }
+
+.articleWrapper {
+       width: 685px;
+       height: auto;
+       }
+   

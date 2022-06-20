@@ -14,9 +14,9 @@ const Navbar = () => {
 
                     <ul id="navMenu">
                         <li className="nav-link"><a href="/">Home</a></li>
-                        <li className="nav-link"><a href="/">Make your own map</a></li>
-                        <li className="nav-link"><a href="/">Contact me</a></li>
-                        <li className="nav-link"><a href="/">Share your route</a></li>
+                        <li className="nav-link"><a href="/Mymap">Make your own map</a></li>
+                        <li className="nav-link"><a href="/Contact">Contact me</a></li>
+                        <li className="nav-link"><a href="/Society">Share your route</a></li>
                     </ul>
                 </div>
             </nav>
