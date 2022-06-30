@@ -1,0 +1,13 @@
+.article-wrapper {
+    width: 685px;
+    height: auto;
+    }
+.article-wrapper-1 {
+    background-color: rgba(88, 160, 119, .5);
+     }       
+.article-wrapper-2 {
+       background-color:rgba(196, 54, 106, .5);
+        }
+.article-wrapper-3 {
+         background-color:rgba(196, 180, 255, .5);
+          }

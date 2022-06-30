@@ -1,0 +1,31 @@
+.society {
+display: grid;
+grid-template-columns: 5fr 10fr;
+
+/* SHould be deleted after i'll find this fcking mistake*/
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.userIcon {
+
+}
+
+.user {
+background-color: rgba(163, 201, 227, 0.2); 
+margin: 10px;
+}
+
+.userMessage {
+
+}
+
+.message {
+margin: 10px;
+background-color: rgba(163, 201, 227, 0.2);
+}
+
+.active {
+    color: gold;
+    text-decoration: underline;
+}

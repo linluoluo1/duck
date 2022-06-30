@@ -1,5 +1,7 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
+
 
 const Navbar = () => {
   return (
@@ -13,10 +15,10 @@ const Navbar = () => {
                     <span></span>
 
                     <ul id="navMenu">
-                        <li className="nav-link"><a href="/">Home</a></li>
-                        <li className="nav-link"><a href="/Mymap">Make your own map</a></li>
-                        <li className="nav-link"><a href="/Contact">Contact me</a></li>
-                        <li className="nav-link"><a href="/Society">Share your route</a></li>
+                        <li className="nav-link"><NavLink to="/Maininfo">Main</NavLink></li>
+                        <li className="nav-link"><NavLink to="/Mymap">Make your own map</NavLink></li>
+                        <li className="nav-link"><NavLink to="/Contact">Contact me</NavLink></li>
+                        <li className="nav-link"><NavLink to="/Network">Share your route</NavLink></li>
                     </ul>
                 </div>
             </nav>
