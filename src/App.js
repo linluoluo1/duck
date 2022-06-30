@@ -5,7 +5,6 @@ import Navbar from './components//Navigation/Navbar';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
 import Mymap from './components/Mymap/Mymap';
-import Society from './components/Society/Society';
 import {BrowserRouter,Routes, Route} from 'react-router-dom';
 
 const App = () => {
