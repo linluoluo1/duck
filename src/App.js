@@ -5,10 +5,13 @@ import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
 import Mymap from './components/Mymap/Mymap';
 import {BrowserRouter,Routes, Route} from 'react-router-dom';
-import Network from './components/Network/Network';
+import  { Network }  from './components/Network/Network';
 
 
-const App = () => {
+
+
+const App = (props) => {
+ 
   return (
     <BrowserRouter>
        <Navbar />
@@ -16,7 +19,7 @@ const App = () => {
         <Route path='/maininfo' element={<Maininfo/>} />
         <Route path='/contacts' element={<Contact/>} />
         <Route path='/mymap' element={<Mymap/>} />
-        <Route path='/network' element={<Network/>} />
+        <Route path='/network' element={<Network state={props.state} dispatch={props.dispatch} />} />
       </Routes>
       <Footer />
     </BrowserRouter>

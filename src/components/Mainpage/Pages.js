@@ -1,16 +1,16 @@
 import React from 'react';
 import './Pages.css'
+import {Carousel} from './Carousel';
 
-function Pages() {
-  return (
-  <>
-    <div className='wrapper-container'>
-     <div className='article-wrapper article-wrapper-1' >
-                    <article className='first-story-article'>
+const Pages = () => {
+    return (
+        <Carousel>
+            <div className='article article1'>
+            <article className='first-story-article'>
                         <h2 className='article-title'> Fancy-free Potrugal</h2>
                         <div className='img-wrapper'>
-                            <img className='photo-first-story' src={require("../img/Portuga.jfif")}
-                                alt='volcanoimg' width='685' height='540' />
+                            <img className=' photo photo-first-story' src={require("../img/Portuga.jfif")}
+                                alt='volcanoimg' />
                         </div>
                         <p>
                             My first travel was something amazing t is
@@ -23,18 +23,14 @@ function Pages() {
                             here, content here', making it look
                             like readable English.
                         </p>
-                        <button className='btn'>
-                            <a href='/'>Full story</a>
-                        </button>
-                    </article>
-                </div>
-
-                <div className='article-wrapper article-wrapper-2'>
-                    <article className='second-story-article'>
+                     </article>
+            </div>
+            <div className='article article1'>
+            <article className='second-story-article'>
                         <h2 className='article-title'> Mysterious Japan</h2>
                         <div className='img-wrapper'>
-                            <img className='photo-second-story' src={require("../img/Japan.jpg")}
-                                alt='volcanoimg' width='685' height='540' />
+                            <img className=' photo photo-second-story' src={require("../img/Japan.jpg")}
+                                alt='volcanoimg' />
                         </div>
                         <p>
                             My second travel was something amazing t is
@@ -47,18 +43,15 @@ function Pages() {
                             here, content here', making it look
                             like readable English.
                         </p>
-                        <button className='btn'>
-                            <a href='/'>Full story</a>
-                        </button>
+                  
                     </article>
-                </div>
-
-                <div className='article-wrapper article-wrapper-3'>
-                    <article className='third-story-article'>
+            </div>
+            <div className='article article1'>
+            <article className='third-story-article'>
                         <h2 className='article-title'> Romantic Italy</h2>
                         <div className='img-wrapper'>
-                            <img className='photo-third-story' src={require("../img/Italy.webp")}
-                                alt='volcanoimg' width='685' height='540' />
+                            <img className='photo photo-third-story' src={require("../img/Italy.webp")}
+                                alt='volcanoimg' />
                         </div>
                         <p>
                             My first travel was something amazing t is
@@ -71,14 +64,11 @@ function Pages() {
                             here, content here', making it look
                             like readable English.
                         </p>
-                        <button className='btn'>
-                            <a href='/'>Full story</a>
-                        </button>
+                     
                     </article>
-                </div>
-    </div>
-  </>
-  )
+            </div>
+        </ Carousel>
+    )
 }
 
 export default Pages

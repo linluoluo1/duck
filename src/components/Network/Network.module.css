@@ -16,10 +16,6 @@ background-color: rgba(163, 201, 227, 0.2);
 margin: 10px;
 }
 
-.userMessage {
-
-}
-
 .message {
 margin: 10px;
 background-color: rgba(163, 201, 227, 0.2);
@@ -28,4 +24,11 @@ background-color: rgba(163, 201, 227, 0.2);
 .active {
     color: gold;
     text-decoration: underline;
+}
+
+.newPost {
+}
+
+.postBtn {
+    
 }

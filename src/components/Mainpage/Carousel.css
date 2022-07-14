@@ -1,0 +1,19 @@
+.mainContainer {
+    height: 540px;
+    width: 685px;
+}
+
+ .window {
+    height: 100%;
+    width: 100%;
+    overflow:scroll;
+} 
+
+.allArticles {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /* padding: 40px; */
+
+ 
+}
